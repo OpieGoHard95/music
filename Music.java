@@ -32,6 +32,11 @@ public class Music {
     media = thisMedia;
     }
 
+  Music(String thisArtist) {
+    this();
+    artist = thisArtist;
+    }
+
   public String toString() {
     String output = "";
     output = "Album: " + album + " Artist: " + artist + " Genre: " + genre + " Media: " + media + " Location: " + location + " Copies: " + copies;
